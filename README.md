@@ -139,6 +139,77 @@ Priority is of 3 types: Low, Medium, and High.	Severity is of 5 types: Critical,
 
 
 
+Test Metric
+
+Software Testing Metric is be defined as a quantitative measure that helps to estimate the progress, quality, and health of a software testing effort. A Metric defines in quantitative terms the degree to which a system, system component, or process possesses a given attribute. 
+
+
+
+
+The different types of Test deliverables are:
+Hence, the test deliverables prepared during the process of software testing are:
+1.	Test Specification Document: This document contains a detailed summary of the scenarios that are going to be tested, the way they will be tested, and how often the testing activity is going to be performed.
+2.	Test Plan Document: A test plan document is a blueprint for carrying out testing process. It lists the sequence of activities that are followed by the team to test the software. Apart from defining the testing process, it also identifies the scope and objective of testing.
+3.	Test Strategy: This is the the way or approach used by the team to achieve the testing target. It includes the test objectives, methods to test new functions, time and resources required for the project as well as the test environment.
+4.	Test Scenario Document: Such a document simply depicts the flow of application. A test scenario document helps to make sure that every process flow is tested thoroughly.
+5.	Test Design Standards: Standards are the formally defined ways or rules that lay the foundation upon which the design of tests is prepared.
+6.	Test Case Document: The test case document enlists the various combinations of input and output that produces a pass or fail report. Based on the report, further rectifications or updates are decided upon.
+7.	Requirement Traceability Report: A traceability matrix is prepared to map the requirements with specifications. The traceability matrix is followed throughout the validation process to ensure that requirements are not compromised while testing the software. This document is updated as the project progresses.
+8.	Test Logs: A log report is a complete list of series of test execution activities. It is a precise report of the passed or failed tests, contains details regarding test operations and states the reasons behind passed or failed activities.
+9.	Test Data: The data or input provided to the application with the intent of fetching some results, are called test data.
+10.	Test Metrics: The measuring mechanisms for analysing a product's efficiency and its degree of complexity are termed as test metrics. Test metrics have various models and formulas for calculating results.
+11.	Test Status Report: Status report is that document which is prepared with an aim to track the progress of the application. Status report can be prepared on a periodic or weekly basis, to list the accomplishments till that time, the work that remains pending, and a milestone analysis.
+12.	Test Scripts: Test script defines the various steps as well as instructions that are executed by the team on the software to tests and validate its functionality and to ensure that it is as per the requirements and expectations of the client.
+13.	Installation & Configuration Guide: It defines system’s or program’s installation and configuration requirements, such as the way it is set up, the components that make up the system, and its hardware & software requirements.
+14.	Effort Estimation Report: Effort estimation report highlights the efforts put in by the team to complete the process of testing. Moreover, the cost and time of failed and passed test cases is also defined by the team in this document. 
+15.	Test Execution Report: This document contains the test results and the summary of test execution activities.
+16.	Test Incident Reports: Reports all the incidents- resolved or unresolved -found while testing the software. It tracks, classifies and manages the incidents. Additionally, it helps the team differentiate incidents from defects. 
+17.	Bugs/Defects Report: A bug report is simply a document enlisting all the errors generated through a test.
+18.	Test Closure Reports: From defining various testing techniques and methodologies, to providing details about the various defects, bugs, and discrepancies found in the software, this report offers a summary of the entire testing process to the reader.
+19.	Release Notes: These are the documents and reports delivered to the client, customer or other stakeholders of the project after the culmination of the testing process.
+
+
+
+
+
+
+
+Tests that should be automated:
+•	Business critical paths – the features or user flows that if they fail, cause a considerable damage to the business. 
+•	Tests that need to be run against every build/release of the application, such as smoke test, sanity test and regression test. 
+•	Tests that need to run against multiple configurations — different OS & Browser combinations. 
+•	Tests that execute the same workflow but use different data for its inputs for each test run e.g. data-driven. 
+•	Tests that involve inputting large volumes of data, such as filling up very long forms. 
+•	Tests that can be used for performance testing, like stress and load tests. 
+•	Tests that take a long time to perform and may need to be run during breaks or overnight. 
+•	Tests during which images must be captured to prove that the application behaved as expected, or to check that a multitude of web pages looks the same on multiple browsers.
+Tests that should not be automated:
+•	Tests that you will only run only once. The only exception to this rule is that if you want to execute a test with a very large set of data, even if it’s only once, then it makes sense to automate it. 
+•	User experience tests for usability (tests that require a user to respond as to how easy the app is to use). 
+•	Tests that need to be run ASAP. Usually, a new feature which is developed requires a quick feedback so testing it manually at first 
+•	Tests that require ad hoc/random testing based on domain knowledge/expertise – Exploratory Testing. 
+•	Intermittent tests. Tests without predictable results cause more noise that value. To get the best value out of automation the tests must produce predictable and reliable results in order to produce pass and fail conditions. 
+•	Tests that require visual confirmation, however, we can capture page images during automated testing and then have a manual check of the images. 
+•	Test that cannot be 100% automated should not be automated at all, unless doing so will save a considerable amount of time.
+
+
+
+
+Load testing
+Load testing measures system performance as the workload increases. That workload could mean concurrent users or transactions.The system is monitored to measure response time and system staying power as workload increases. That workload falls within the parameters of normal working conditions.
+Stress testing
+Unlike load testing, stress testing — also known as fatigue testing — is meant to measure system performance outside of the parameters of normal working conditions. The software is given more users or transactions that can be handled. The goal of stress testing is to measure the software stability. At what point does software fail, and how does the software recover from failure?
+Spike testing
+Spike testing is a type of stress testing that evaluates software performance when workloads are substantially increased quickly and repeatedly. The workload is beyond normal expectations for short amounts of time.
+Endurance testing
+Endurance testing — also known as soak testing — is an evaluation of how software performs with a normal workload over an extended amount of time. The goal of endurance testing is to check for system problems such as memory leaks. (A memory leak occurs when a system fails to release discarded memory. The memory leak can impair system performance or cause it to fail.)
+Scalability testing
+Scalability testing is used to determine if software is effectively handling increasing workloads. This can be determined by gradually adding to the user load or data volume while monitoring system performance. Also, the workload may stay at the same level while resources such as CPUs and memory are changed.
+Volume testing
+Volume testing determines how efficiently software performs with a large, projected amounts of data. It is also known as flood testing because the test floods the system with data.
+
+
+
 
 
 
